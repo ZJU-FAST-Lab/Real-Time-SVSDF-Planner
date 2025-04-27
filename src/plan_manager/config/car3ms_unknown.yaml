@@ -1,0 +1,19 @@
+# Physical parameters
+# Maximum speed (straight driving)
+max_vel:                        3.0
+min_vel:                        -3.0
+# Maximum acceleration
+max_acc:                        2.0
+# Maximum angular velocity (in-place rotation)
+max_omega:                      3.0
+# Maximum angular acceleration
+max_domega:                     4.0
+# To prevent the vehicle from overturning or skidding, the maximum lateral acceleration is limited (all examples are on flat ground), taking the minimum value if both are considered
+# To prevent overturning, the maximum centripetal acceleration is gB/2h, where g is the gravitational acceleration, B is the wheelbase, and h is the center of gravity height
+# To prevent skidding, the maximum centripetal acceleration is μg, where μ is the friction coefficient and g is the gravitational acceleration
+# The current parameter is given randomly to verify its effectiveness
+max_centripetal_acc:            50
+
+# Collision checkpoint
+# Single point
+checkpoint:   [0.0, 0.0]

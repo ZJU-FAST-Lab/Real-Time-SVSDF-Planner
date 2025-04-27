@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>controller</name>
+  <version>0.0.0</version>
+  <description>The controller package</description>
+
+  <maintainer email="you@yourdomain.tld">Your Name</maintainer>
+  <license>BSD</license>
+
+  <!-- 构建工具依赖 -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- 编译时依赖 -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>robotstatemsgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>utils</build_depend>
+
+  <!-- 运行时依赖 -->
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>robotstatemsgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>utils</exec_depend>
+
+
+<!-- <build_depend>eigen</build_depend>
+<exec_depend>eigen</exec_depend> -->
+
+
+  <export>
+    <!-- 其他工具可以在这里请求额外的信息 -->
+  </export>
+</package>

@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/noetic/include/**",
+                "${workspaceFolder}/../devel/include/**",
+                "/usr/include/pcl-1.10",
+                "${workspaceFolder}/marker_test/include",
+                "${workspaceFolder}/environment/marker_test/include",
+                "${workspaceFolder}/swept_volume/include"
+            ],
+            "defines": [],
+            "compilerPath": "/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

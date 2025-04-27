@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>utils</name>
+  <version>0.0.1</version>
+  <description>The utils package provides utility functions for various ROS applications.</description>
+
+  <!-- Maintainer 信息 -->
+  <maintainer email="ztr@todo.todo">ztr</maintainer>
+
+  <!-- 许可证信息 -->
+  <license>MIT</license> <!-- 请根据实际情况选择合适的许可证 -->
+
+  <!-- 项目主页 -->
+  <url type="website">http://wiki.ros.org/utils</url>
+  <url type="repository">https://github.com/yourusername/utils</url>
+  <url type="bugtracker">https://github.com/yourusername/utils/issues</url>
+
+  <!-- 作者信息（可选） -->
+  <author email="author@example.com">Author Name</author>
+
+  <!-- 依赖关系 -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- 构建依赖 -->
+  <build_depend>nodelet</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>robotstatemsgs</build_depend>
+
+  <!-- 导出依赖 -->
+  <build_export_depend>nodelet</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>visualization_msgs</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>pcl_ros</build_export_depend>
+  <build_export_depend>pcl_conversions</build_export_depend>
+  <build_export_depend>message_generation</build_export_depend>
+  <build_export_depend>robotstatemsgs</build_export_depend>
+
+  <!-- 运行时依赖 -->
+  <exec_depend>nodelet</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>robotstatemsgs</exec_depend>
+
+  <!-- 导出信息 -->
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -utils_lib" />
+    <!-- 其他工具可以在这里添加额外的信息 -->
+  </export>
+</package>

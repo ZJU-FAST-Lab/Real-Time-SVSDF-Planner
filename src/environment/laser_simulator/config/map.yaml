@@ -1,0 +1,7 @@
+# center: x,y  size: x,y   yaw
+map_box:              [2,   2,   2,  2,  2,
+                       0,  -1,   1,  1,  2,
+                       ]
+
+# map_size  xmin xmax ymin ymax zmin zmax
+map_size:             [-9,  9,  -9,  7]

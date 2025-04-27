@@ -1,0 +1,9 @@
+
+
+p_hit:                          0.99
+p_miss:                         0.35
+p_min:                          0.12
+p_max:                          0.90
+p_occ:                          0.80
+min_ray_length:                 0.5
+max_ray_length:                 4.5

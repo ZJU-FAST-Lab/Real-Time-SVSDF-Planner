@@ -1,0 +1,24 @@
+{
+    "operations": [
+        {
+            "name": "load debug trajectorey",
+            "id": 103
+        },
+        {
+            "name": "save debug trajectorey",
+            "id": 104
+        },
+        {
+            "name": "vis SV",
+            "id": 105
+        },
+        {
+            "name": "vis Grad",
+            "id": 106
+        },
+        {
+            "name": "change optimize method",
+            "id": 107
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>plan_manager</name>
+  <version>0.0.1</version>
+  <description>The plan_manager package handles planning tasks and utilizes utility functions from the utils package.</description>
+
+  <!-- Maintainer 信息 -->
+  <maintainer email="zmk@todo.todo">zmk</maintainer>
+
+  <!-- 许可证信息 -->
+  <license>MIT</license> <!-- 请根据实际情况选择合适的许可证 -->
+
+  <!-- 项目主页和仓库链接 -->
+  <url type="website">http://wiki.ros.org/plan_manager</url>
+  <url type="repository">https://github.com/yourusername/plan_manager</url>
+  <url type="bugtracker">https://github.com/yourusername/plan_manager/issues</url>
+
+  <!-- 作者信息（可选） -->
+  <author email="author@example.com">Author Name</author>
+
+  <!-- 依赖关系 -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- 构建依赖 -->
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>robotstatemsgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>plan_env</build_depend>
+  <build_depend>planner_algorithm</build_depend>
+  <build_depend>utils</build_depend>
+
+  <!-- 导出依赖 -->
+  <build_export_depend>gazebo_ros</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>robotstatemsgs</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>visualization_msgs</build_export_depend>
+  <build_export_depend>plan_env</build_export_depend>
+  <build_export_depend>planner_algorithm</build_export_depend>
+  <build_export_depend>utils</build_export_depend>
+
+  <!-- 运行时依赖 -->
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>robotstatemsgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>plan_env</exec_depend>
+  <exec_depend>planner_algorithm</exec_depend>
+  <exec_depend>utils</exec_depend>
+
+  <!-- 导出信息 -->
+  <export>
+    <!-- 其他工具可以在这里添加额外的信息 -->
+  </export>
+</package>

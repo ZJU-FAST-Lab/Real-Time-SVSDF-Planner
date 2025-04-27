@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+    <include file="$(find laser_simulator)/launch/rviz.launch"/>
+
+    <node pkg="laser_simulator" type="laser_sim_node" name="laser_simulator" output="screen">
+        <rosparam file="$(find laser_simulator)/launch/params.yaml" command="load" />
+    </node>
+</launch>
