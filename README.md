@@ -1,6 +1,8 @@
 # Real-Time-SVSDF-Planner
 Any-shape Real-time Replanning via SVSDF
 
+A more detailed and complete version will be released once the paper’s final draft is finished.
+
 ## Version1.0
 ![alt text](asset/demo.png)
 
